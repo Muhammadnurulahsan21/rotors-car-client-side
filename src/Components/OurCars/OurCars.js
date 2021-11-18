@@ -7,7 +7,7 @@ import Header from "../Header/Header";
 const OurCars = () => {
   const [allCars, setAllCars] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:4000/carDatabase")
+    fetch("https://fierce-brushlands-69316.herokuapp.com/carDatabase")
       .then((res) => res.json())
       .then((data) => setAllCars(data.carDatabase));
   }, []);
