@@ -1,0 +1,86 @@
+[
+    {   
+        "id": "01",
+        "title": "2022 Mercedes-Benz A-Class",
+        "price": "$33,950 - $35,950",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/CsxZFGW/01.jpg"
+      },
+    {   
+        "id": "02",
+        "title": "2022 Mercedes-Benz CLA-Class",
+        "price": "$38,200 - $55,900",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/yf3xqCv/02.jpg"
+      },
+    {   
+        "id": "03",
+        "title": "2022 Mercedes-Benz E-Class",
+        "price": "$54,950 - $84,350",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/RBqLXjB/03.png"
+      },
+    {   
+        "id": "04",
+        "title": "2022 Mercedes-Benz EQS",
+        "price": "$120,225 - $139,966",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/sRrD4k5/04.jpg"
+      },
+    {   
+        "id": "05",
+        "title": "2022 Mercedes-Benz GLA-Class",
+        "price": "$36,400 - $54,950",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/rQCjwf3/05.jpg"
+      },
+    {   
+        "id": "06",
+        "title": "2022 Mercedes-Benz GLB-Class",
+        "price": "$38,600 - $49,950",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/y8jdt3g/06.jpg"
+    },
+    {   
+        "id": "07",
+        "title": "2022 Mercedes-Benz GLC-Class",
+        "price": "$43,850 - $52,500",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/RYKp2bW/07.jpg"
+    },
+    {   
+        "id": "08",
+        "title": "2022 Mercedes-Benz GLE-Class",
+        "price": "$55,700 - $79,800",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/1LTzPjY/08.png"
+      },
+    {   
+        "id": "09",
+        "title": "2022 Mercedes-Benz GLS-Class",
+        "price": "$77,200 - $77,200",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/mGYpwcy/09.png"
+      },
+    {   
+        "id": "10",
+        "title": "2022 Mercedes-Benz S-Class",
+        "price": "$111,350 - $117,950",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/N6KtTZG/10.jpg"
+      },
+    {   
+        "id": "11",
+        "title": "2021 Mercedes-Benz CLS-Class",
+        "price": "$70,300 - $81,550 ",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/547wpSX/11.jpg"
+      },
+    {   
+        "id": "12",
+        "title": "2021 Mercedes-Benz G-Class",
+        "price": "$131,750 - $156,450",
+        "description": "The Corvette used to be a simple thing. It delivered world-class performance on a budget, but a look at the rest of the car explained the low price.",
+        "img": "https://i.ibb.co/TtcS9ky/12.jpg"
+      }
+]

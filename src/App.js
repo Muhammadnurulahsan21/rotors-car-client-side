@@ -4,11 +4,12 @@ import AuthProvider from "./ContextApi/AuthProvider";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import NotFound from "./Components/NotFound/NotFound";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import Dashboard from "./Components/Dashboard/Dashboard";
 import Register from "./Components/Register/Register";
 import OurCars from "./Components/OurCars/OurCars";
+import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
-import Header from "./Components/Header/Header";
 import Login from "./Components/Login/Login";
 import Home from "./Components/Home/Home";
 
@@ -17,7 +18,6 @@ function App() {
     <div className="App">
       <AuthProvider>
         <Router>
-          <Header></Header>
           <Switch>
             <Route exact path="/">
               <Home></Home>
@@ -30,6 +30,9 @@ function App() {
             </PrivateRoute>
             <Route exact path="/about">
               <About></About>
+            </Route>
+            <Route exact path="/dashboard">
+              <Dashboard></Dashboard>
             </Route>
             <Route exact path="/contactus">
               <ContactUs></ContactUs>
@@ -44,7 +47,6 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

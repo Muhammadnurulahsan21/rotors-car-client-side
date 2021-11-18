@@ -1,0 +1,46 @@
+.car-text {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+   
+  }
+  .car-text::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    left: 47%;
+    background-color: #e91e63;
+    bottom: -50%;
+  }
+  .car-img {
+    background-image: linear-gradient(
+        rgba(54, 78, 80, 0.4),
+        rgba(55, 83, 85, 0.4)
+      ),
+      url(../../img/car-bg.jpg);
+    height: 280px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .featured-text::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    left: 45%;
+    background-color: #000000;
+    bottom: 30%;
+  }
+
+
+
+
+
+
+
+
+
+

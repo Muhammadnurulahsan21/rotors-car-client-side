@@ -1,0 +1,9 @@
+.border-text::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    left: 45%;
+    background-color: #e91e63;
+    bottom: -24%;
+  }

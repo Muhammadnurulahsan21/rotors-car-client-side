@@ -7,12 +7,7 @@ import check from "../../img/icon-check-white.png";
 import avatar from "../../img/avatar.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faTwitter,
-  faInstagram,
-  faFacebook,
-} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin,faTwitter,faInstagram,faFacebook,} from "@fortawesome/free-brands-svg-icons";
 import {
   faPhoneAlt,
   faSearch,
@@ -199,21 +194,24 @@ const Header = () => {
                     <Button variant="outline-secondary  py-2 px-1 fs-6">
                       <Link
                         className="dropdown text-dark py-2 px-3 fs-6"
-                        to="/mybookings"
+                        to="/dashboard"
                       >
                         Dashboard
                       </Link>
                     </Button>
-                    <Dropdown.Toggle split variant="outline-secondary" />
+                    {/* <Dropdown.Toggle split variant="outline-secondary" /> */}
 
-                    <Dropdown.Menu>
+                    {/* <Dropdown.Menu>
                       <Dropdown.Item as={Link} to="/addyourpackage">
                         My Orders
+                      </Dropdown.Item>
+                      <Dropdown.Item as={Link} to="/addyourpackage">
+                        Payments
                       </Dropdown.Item>
                       <Dropdown.Item as={Link} to="/manageallbookings">
                         Review
                       </Dropdown.Item>
-                    </Dropdown.Menu>
+                    </Dropdown.Menu> */}
                   </Dropdown>
                 </div>
               )}

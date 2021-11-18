@@ -67,7 +67,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-col">
-              <h4 className="custom-padding online">Information:</h4>
+              <h4 className="custom-padding online">Information</h4>
               <ul>
                 <li>
                   <Link to="/"> F.A.Q.</Link>
