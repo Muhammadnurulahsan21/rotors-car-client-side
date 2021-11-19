@@ -1,10 +1,11 @@
 import React from "react";
 import "./OurCarsCard.css";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const OurCarsCard = (props) => {
-  const { title, price, description, img } =
-    props.allCar || {};
+  const { _id, title, price, description, img } = props.allCar || {};
+  const url = `/orderdetails/${_id}`;
   return (
     <div className="col">
       <div className="card h-80 p-2 m-3 text-start">
@@ -19,7 +20,9 @@ const OurCarsCard = (props) => {
           <h6 className="card-text fw-normal">
             <span className="fw-bold">Car Description:</span> {description}
           </h6>
-          <Button variant="secondary">Order Now</Button>
+          <Link to={url}>
+            <Button variant="secondary">Order Now</Button>
+          </Link>
         </div>
       </div>
     </div>

@@ -4,6 +4,10 @@
   margin-top: 110px;
 }
 
+.bg-eee{
+  background-color: #d6d4d4d0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -199,19 +199,19 @@ const Header = () => {
                         Dashboard
                       </Link>
                     </Button>
-                    {/* <Dropdown.Toggle split variant="outline-secondary" /> */}
+                    <Dropdown.Toggle split variant="outline-secondary" />
 
-                    {/* <Dropdown.Menu>
-                      <Dropdown.Item as={Link} to="/addyourpackage">
-                        My Orders
+                    <Dropdown.Menu>
+                      <Dropdown.Item as={Link} to="/myorders">
+                      My Orders
                       </Dropdown.Item>
-                      <Dropdown.Item as={Link} to="/addyourpackage">
-                        Payments
+                      <Dropdown.Item as={Link} to="/payments">
+                      Payments
                       </Dropdown.Item>
-                      <Dropdown.Item as={Link} to="/manageallbookings">
-                        Review
+                      <Dropdown.Item as={Link} to="/addreview">
+                      Add  Review
                       </Dropdown.Item>
-                    </Dropdown.Menu> */}
+                    </Dropdown.Menu>
                   </Dropdown>
                 </div>
               )}
